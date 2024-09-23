@@ -288,7 +288,7 @@ ul{
 }
 
 .footer-flex{
-    height: 50px;
+    height: 600px;
     background-color: rgb(66, 66, 70);
 }
 
@@ -300,13 +300,21 @@ ul{
     max-width: 850px;
     height: 30px;
     margin: 0 auto;
-    background-color: rgb(162, 248, 222);
+    /* background-color: rgb(162, 248, 222); */
+    margin-top: 20px;
 }
 
-.foot-elements{
-    border: 1px;
-    border-style: dashed;
-    background-color: pink;
+.line{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.button-cta-blue-footer{
+    background-color: rgb(98, 118, 231);
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 8px;
 }
 
 
