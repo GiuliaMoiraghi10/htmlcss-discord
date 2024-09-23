@@ -275,6 +275,16 @@ h1{
     /* background-color: rgb(41, 175, 135); */
     width: calc(100%/4);
     height: auto;
+    color: white;
+}
+
+ul{
+    line-height: 30px;
+    font-size: 12px;
+}
+.title-li{
+    color: rgb(98, 118, 231);
+    font-weight: 500;
 }
 
 .footer-flex{
@@ -298,6 +308,8 @@ h1{
     border-style: dashed;
     background-color: pink;
 }
+
+
 
 
 
