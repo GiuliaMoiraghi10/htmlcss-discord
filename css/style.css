@@ -163,7 +163,7 @@ h1{
 
 .row{
     display: flex;
-    width: 900px;
+    max-width: 900px;
     justify-content: center;
 }
 
@@ -217,7 +217,7 @@ h1{
 
 .big-green{
     background-color: rgb(231, 232, 233);
-    height: 800px;
+    max-height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,7 +225,7 @@ h1{
 }
 
 .img-green{
-    width: 850px;
+    max-width: 850px;
     height: 700px;
     margin-bottom: -40px;
     padding-top: 40px;
@@ -271,6 +271,7 @@ h1{
 .h3-col2-6{
     color: rgb(98, 118, 231);
 }
+
 .col1-6{
     /* background-color: rgb(41, 175, 135); */
     width: calc(100%/4);
@@ -288,7 +289,7 @@ ul{
 }
 
 .footer-flex{
-    height: 600px;
+    max-height: 600px;
     background-color: rgb(66, 66, 70);
 }
 
@@ -307,6 +308,9 @@ ul{
 .line{
     max-width: 900px;
     margin: 0 auto;
+    border: 0;
+    height: 2px;
+    background-color: rgb(98, 118, 231);
 }
 
 .button-cta-blue-footer{
