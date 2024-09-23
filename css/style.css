@@ -26,12 +26,12 @@ a{
     padding: 0 20px;
     max-width: 900px;
     margin: 0 auto;
-    background-color: rgb(245, 245, 79);
 }
 
 .main-menu {
 	display: flex;
 	gap: 20px;
+    color: white;
 }
 
 .main-flex{
@@ -41,7 +41,7 @@ a{
 }
 
 /* DEBUG */
-.logo{
+/* .logo{
     border: 1px;
     border-style: dashed;
 }
@@ -54,7 +54,7 @@ a{
 .login{
     border: 1px;
     border-style: dashed;
-}
+} */
 
 /* .img-top{
     border: 1px;
@@ -84,6 +84,8 @@ a{
 .main-flex.img-header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    display: block;
+    text-align: center;
 }
 .top{
     height: 300px;
@@ -108,7 +110,7 @@ a{
 .p-top{
     font-size: 15px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .button-top{
@@ -117,6 +119,27 @@ a{
     align-items: center;
     gap: 20px;
 }
+
+.button-login{
+    border-radius: 20px;
+    padding: 5px 20px; 
+    background-color: white;
+}
+
+.button-cta{
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.button-cta.button-cta-white{
+    background-color: white;
+}
+
+.button-cta.button-cta-black{
+    background-color: black;
+    color: white;
+}
+
 
 /* .img-top{
     align-self: center;
