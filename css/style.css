@@ -61,19 +61,19 @@ a{
     border-style: dashed;
 } */
 
-.debug .container{
+.main-column .container{
     border-style: dashed;
     border: 1px;
 }
 
-.debug .row{
+.main-column .row{
     /* border: 1px;
     border-style: dashed; */
     padding: 20px;
     height: 400px;
 }
 
-.debug .row>*{
+.main-column .row>*{
     /* border: 1px;
     border-style: dashed; */
     padding: 20px;
@@ -263,13 +263,16 @@ h1{
 }
 
 .col2-6{
-    background-color: rgb(226, 143, 178);
+    /* background-color: rgb(226, 143, 178); */
     width: calc(100%/3);
     height: auto;
 }
 
+.h3-col2-6{
+    color: rgb(98, 118, 231);
+}
 .col1-6{
-    background-color: rgb(41, 175, 135);
+    /* background-color: rgb(41, 175, 135); */
     width: calc(100%/4);
     height: auto;
 }
