@@ -84,9 +84,10 @@ a{
 .main-flex.img-header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    display: block;
-    text-align: center;
+    max-width: 100%;
 }
+
+
 .top{
     height: 300px;
     padding: 0 20px;
@@ -139,7 +140,6 @@ a{
     background-color: black;
     color: white;
 }
-
 
 /* .img-top{
     align-self: center;
@@ -194,8 +194,11 @@ a{
     margin-bottom: 20px;
 }
 
+.col60.img-item3{
+    background-image: url(../img/item3.svg);
+}
 .container-grey{
-  background-color: rgb(194, 196, 199);
+  background-color: rgb(231, 232, 233);
 }
 
 /* .col100{
@@ -225,7 +228,7 @@ a{
 }
 
 .big-green{
-    background-color: rgb(194, 196, 199);
+    background-color: rgb(231, 232, 233);
     height: 800px;
     display: flex;
     justify-content: center;
