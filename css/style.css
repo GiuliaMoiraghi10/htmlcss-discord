@@ -165,8 +165,8 @@ a{
 
 .col40.item1{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     flex-direction: column;
 }
 .col60{
@@ -184,6 +184,10 @@ a{
     /* background-color: pink; */
     width: 40%;
     height: auto;
+}
+
+.col60.img-item2{
+    background-image: url(../img/item2.svg);
 }
 
 .txt-item{
