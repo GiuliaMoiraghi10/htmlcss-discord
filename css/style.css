@@ -56,10 +56,10 @@ a{
     border-style: dashed;
 }
 
-.img-top{
+/* .img-top{
     border: 1px;
     border-style: dashed;
-}
+} */
 
 .debug .container{
     border-style: dashed;
@@ -80,21 +80,26 @@ a{
 }
 
 /* MAIN */
+
+.main-flex.img-header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
 .top{
-    background-color: rgb(9, 9, 158);
     height: 300px;
     padding: 0 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.img-top{
+/* .img-top{
     align-self: center;
     justify-content: center;
-    background-color: rgb(219, 92, 198);
     width: 700px;
     height: 250px;
 	margin: 0 auto;
-}
+} */
 
 .container{
   display: flex;
