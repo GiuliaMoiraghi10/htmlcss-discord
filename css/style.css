@@ -93,6 +93,21 @@ a{
     align-items: center;
 }
 
+.top-text{
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    max-width: 500px;
+}
+
+.h1-top{
+    margin-bottom: 10px;
+}
+
+.p-top{
+    font-size: 15px;
+}
+
 /* .img-top{
     align-self: center;
     justify-content: center;
