@@ -103,6 +103,10 @@ a{
     max-width: 500px;
 }
 
+h1{
+    margin-bottom: 20px;
+}
+
 .h1-top{
     margin-bottom: 10px;
     color: white;
@@ -233,16 +237,17 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .img-green{
-    background-color: rgb(68, 190, 12);
     width: 850px;
     height: 700px;
-    border: 1px;
-    border-style: dashed;
 }
 
+.txt-big-green{
+    text-align: center;
+}
 /* FOOTER */
 
 .footer-flex{
