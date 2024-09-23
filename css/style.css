@@ -215,6 +215,49 @@ h1{
     height: 800px;
 } */
 
+.big-green{
+    background-color: rgb(231, 232, 233);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-green{
+    width: 850px;
+    height: 700px;
+    margin-bottom: -40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.txt-big-green{
+    text-align: center;
+}
+
+.item4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    padding: 10px 100px;
+    margin-bottom: 30px;
+}
+.txt-item4{
+    text-align: center;
+}
+
+.button-cta-blue{
+    background-color: rgb(98, 118, 231);
+    color: white;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+
+/* FOOTER */
+
 .container-darkgrey{
     background-color: rgb(66, 66, 70);
 }
@@ -230,25 +273,6 @@ h1{
     width: calc(100%/4);
     height: auto;
 }
-
-.big-green{
-    background-color: rgb(231, 232, 233);
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.img-green{
-    width: 850px;
-    height: 700px;
-}
-
-.txt-big-green{
-    text-align: center;
-}
-/* FOOTER */
 
 .footer-flex{
     height: 50px;
@@ -271,6 +295,7 @@ h1{
     border-style: dashed;
     background-color: pink;
 }
+
 
 
 
