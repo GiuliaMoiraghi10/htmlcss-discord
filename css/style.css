@@ -266,6 +266,7 @@ h1{
     /* background-color: rgb(226, 143, 178); */
     width: calc(100%/3);
     height: auto;
+    color: white;
 }
 
 .h3-col2-6{
@@ -277,6 +278,16 @@ h1{
     width: calc(100%/4);
     height: auto;
     color: white;
+}
+
+.flag{
+    max-width: 20px;
+    height: auto;
+    display: inline-block;
+}
+
+.txt-flag{
+    font-size: 12px;
 }
 
 ul{
